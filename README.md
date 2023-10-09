@@ -174,7 +174,7 @@ Here are the top twelve stations for casual riders…
 I saved the results of both queries to CSV files that I will use later for data visualization.
 
 ## Data Preparation and Processing, R
-I repeated the same process in SQL in R to prepare and process data to create usable CSV files. Feel free to skip to the data visualization portion by clicking [here](INSERT LINK). The purpose of this portion is to demonstrate my skills in R. 
+I repeated the same process in SQL in R to prepare and process data to create usable CSV files. Feel free to skip to the data visualization portion by clicking [here](#data-visualization-tableau). The purpose of this portion is to demonstrate my skills in R. 
 
 
 To set up my workspace in RStudio, I installed the Tidyverse, Janitor, and Lubridate packages.
