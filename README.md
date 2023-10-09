@@ -8,9 +8,9 @@ Welcome! In this case study, I used SQL and R to prepare and process and Tableau
 
 ## Table of Contents
 - [Scenario](#scenario)
-- [Data Preparation and Processing, SQL](#Data-Preparation-and-Processing,-SQL)
-- [Data Preparation and Processing, R](#Data-Preparation-and-Processing,-R)
-- [Data Visualization, Tableau](#Data-Visualization,-Tableau)
+- [Data Preparation and Processing, SQL](#data-preparation-and-processing-sql)
+- [Data Preparation and Processing, R](#data-preparation-and-processing-r)
+- [Data Visualization, Tableau](#data-visualization-tableau)
 - [Recommendations](#Recommendations)
 
 ## Scenario
