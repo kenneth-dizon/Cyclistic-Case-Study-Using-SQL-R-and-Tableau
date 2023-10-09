@@ -34,22 +34,16 @@ Three questions will guide the future marketing program:
 
 ## Data Preparation and Processing, SQL
 
-To access Cyclistic’s bike trip data, click [here](https://divvy-tripdata.s3.amazonaws.com/index.html). I downloaded all the zip files for the 2022 calendar year. Each file contained a CSV file that held the bike trip data for that month. Below for example was the folder for January.
+To access Cyclistic’s bike trip data, click [here](https://divvy-tripdata.s3.amazonaws.com/index.html). I downloaded all the zip files for the 2022 calendar year. Each file contained a CSV file that held the bike trip data for that month. For reference, below is the folder for January.
 
 ![Screenshot 2023-08-14 223745](https://github.com/kenneth-dizon/Cyclistic-Data-Analytics/assets/141383645/03249e66-1228-4973-accc-296d08419707)
 
 I then moved each CSV file to another folder in my computer titled “Bike Trip Data 2022” for easy access.
 
-Considering that there are thousands of rows, SQL is an effective tool to clean and analyze the data. I am using Google’s BigQuery as my SQL workspace.
-
-I created a bucket titled bike_691 in Google Cloud Storage since most of the files are too big to upload to BigQuery directly.
+Next, I created a bucket titled bike_691 in Google Cloud Storage since most of the files are too big to upload to BigQuery directly.
 
 
 ![bucket](https://github.com/kenneth-dizon/Cyclistic-Data-Analytics/assets/141383645/5246edb8-1612-43eb-bbd6-2d5dda3ade02)
-
-I then moved each CSV file to another folder in my computer titled “Bike Trip Data 2022” for easy access.
-
-Considering that there are thousands of rows, SQL is an effective tool to clean and analyze the data. I am using Google’s BigQuery as my SQL workspace.
 
 Afterwards, I created a table for each file in Big Query titled by month. Once uploaded, I checked the schema of all the tables to ensure that the name and data type of each field were identical.
 
@@ -321,10 +315,10 @@ write_csv(casual_stations_with_coodinates, "casual_stations_with_coodinates.csv"
 
 I repeated the same process for annual members by changing the filter and naming conventions of the data frames and files.
 
-With the CSV files created, we can now move to data visualization!
+With the CSV files created, I could now move to data visualization.
 
 ## Data Visualization, Tableau
-I uploaded all CSV files to Tableau and now I could create visualizations to make the data sing!
+I uploaded the CSV files in Tableau and made visualizations that allowed the data to sing!
 
 According to the data, members outnumber casual riders by about half a million members.
 
