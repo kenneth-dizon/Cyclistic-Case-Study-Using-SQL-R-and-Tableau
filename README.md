@@ -1,4 +1,4 @@
-# Cyclistic Case Study Using SQL, R, and Tableau
+# Cyclistic Case Study
 
 <p align=”center”>
 <img src="https://github.com/kenneth-dizon/Cyclistic-Data-Analytics/assets/141383645/8d76c80f-bf8f-4401-9a96-32e307f95d7c">
